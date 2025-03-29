@@ -1,7 +1,7 @@
 "client"
-import { Mail } from "lucide-react";
+
 import Link from "next/link";
-import { GitHub, Linkedin, Twitter } from "react-feather";
+import { GitHub, Linkedin, Mail } from "react-feather";
 interface SocialProps {
   containerStyles?: string;
   iconStyles?: string;
