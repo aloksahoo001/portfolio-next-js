@@ -14,7 +14,7 @@ const Home = () => {
             Hello I&apos;m<br/><span className="text-accent">Alok Sahoo</span>
           </h1>
           <p className="max-w-[500px] mb-9 text-white/80">
-            I excel in developing user-friendly and hogh performant digital applications using various technology and platforms.
+            I excel in developing user-friendly and high performant digital applications using various technology and platforms.
           </p>
           <div className="flex flex-col xl:flex-row items-center gap-8">
             <Button 

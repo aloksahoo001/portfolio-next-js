@@ -6,7 +6,7 @@ const socials = [
   { icon: <Linkedin/>, path:""},
   { icon: <Twitter/>, path:""},
 ]
-const Socials = ({containerStyles, iconStyles}) => {
+const Socials = ({containerStyles, iconStyles}: any) => {
   return (
     <div className={containerStyles}>
       {socials.map((item, index) =>{
