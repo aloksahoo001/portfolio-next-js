@@ -4,8 +4,7 @@ import Socials from "@/components/Socials";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
 const Home = () => {
-  console.log("Home page rendered");
-  return <section className="h-full">
+  return <section className="min-h-screen w-full overflow-hidden">
     <div className="container mx-auto">
       <div className="flex flex-col xl:flex-row items-center justify-between xl:pb-24">
         <div className="text-center xl:text-left order-2 xl:order-none mt-5 xl:mt-0">
